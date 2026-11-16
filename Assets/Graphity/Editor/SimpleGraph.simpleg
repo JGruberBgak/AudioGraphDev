@@ -1,0 +1,182 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12501, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: SimpleGraph
+  m_EditorClassIdentifier: UnityEditor.dll::Unity.GraphToolkit.Editor.Implementation.GraphObjectImp
+  m_GraphModel:
+    rid: 8736976950110978259
+  references:
+    version: 2
+    RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }
+    - rid: 8736976950110978259
+      type: {class: GraphModelImp, ns: Unity.GraphToolkit.Editor.Implementation, asm: UnityEditor.GraphToolkitModule}
+      data:
+        m_Guid:
+          m_Value0: 18309295952038493917
+          m_Value1: 1198164573776935016
+        m_HashGuid:
+          serializedVersion: 2
+          Hash: dd7ec05ca9af17fe68786eea54bca010
+        m_Name: SimpleGraph
+        m_GraphNodeModels:
+        - rid: 8736976950110978270
+        - rid: 8736977042660655104
+        m_GraphWireModels: []
+        m_GraphStickyNoteModels: []
+        m_GraphPlacematModels: []
+        m_GraphVariableModels: []
+        m_GraphPortalModels: []
+        m_SectionModels:
+        - rid: 8736976950110978260
+        m_LocalSubgraphs: []
+        m_LastKnownBounds:
+          serializedVersion: 2
+          x: 473.5
+          y: 363
+          width: 373.5
+          height: 562
+        m_GraphElementMetaData:
+        - m_Guid:
+            m_Value0: 6698014587954149275
+            m_Value1: 8960414879035510892
+          m_HashGuid:
+            serializedVersion: 2
+            Hash: 9b3764b7c720f45c6c5009b1dbc9597c
+          m_Category: 0
+          m_Index: 0
+        - m_Guid:
+            m_Value0: 8505444147335955971
+            m_Value1: 1176510325765213191
+          m_HashGuid:
+            serializedVersion: 2
+            Hash: 0386e26263680976078cd069e8cd5310
+          m_Category: 0
+          m_Index: 1
+        m_EntryPoint:
+          rid: 8736976950110978270
+        m_Graph:
+          rid: 8736976950110978261
+    - rid: 8736976950110978260
+      type: {class: SectionModel, ns: Unity.GraphToolkit.Editor, asm: UnityEditor.GraphToolkitModule}
+      data:
+        m_Guid:
+          m_Value0: 1686626049521921492
+          m_Value1: 16493541465115325403
+        m_HashGuid:
+          serializedVersion: 2
+          Hash: d4adacb674196817dbf35f7493d4e4e4
+        m_Version: 2
+        m_Items: []
+        m_Title: 
+    - rid: 8736976950110978261
+      type: {class: MySimpleGraph, ns: Unity.GraphToolkit.Scripts.Editor, asm: Assembly-CSharp-Editor}
+      data: 
+    - rid: 8736976950110978270
+      type: {class: UserNodeModelImp, ns: Unity.GraphToolkit.Editor.Implementation, asm: UnityEditor.GraphToolkitModule}
+      data:
+        m_Guid:
+          m_Value0: 6698014587954149275
+          m_Value1: 8960414879035510892
+        m_HashGuid:
+          serializedVersion: 2
+          Hash: 9b3764b7c720f45c6c5009b1dbc9597c
+        m_Version: 2
+        m_Position: {x: 473.4178, y: 363.1698}
+        m_Title: 
+        m_Tooltip: 
+        m_NodePreviewModel:
+          rid: -2
+        m_State: 0
+        m_InputConstantsById:
+          m_KeyList:
+          - Play Music
+          - Music
+          m_ValueList:
+          - rid: 8736976950110978271
+          - rid: 8736976950110978272
+        m_InputPortInfos:
+          expandedPortsById:
+            m_KeyList: []
+            m_ValueList: 
+        m_OutputPortInfos:
+          expandedPortsById:
+            m_KeyList: []
+            m_ValueList: 
+        m_Collapsed: 0
+        m_CurrentModeIndex: 0
+        m_ElementColor:
+          m_Color: {r: 0, g: 0, b: 0, a: 0}
+          m_HasUserColor: 0
+        m_Node:
+          rid: 8736976950110978273
+    - rid: 8736976950110978271
+      type: {class: 'Constant`1[[System.Boolean, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: UnityEditor.GraphToolkitModule}
+      data:
+        m_Value: 0
+    - rid: 8736976950110978272
+      type: {class: 'Constant`1[[UnityEngine.AudioClip, UnityEngine.AudioModule]]', ns: Unity.GraphToolkit.Editor, asm: UnityEditor.GraphToolkitModule}
+      data:
+        m_Value: {fileID: 0}
+    - rid: 8736976950110978273
+      type: {class: MusicPlayerNode, ns: Unity.GraphToolkit.Graphity.Editor, asm: Assembly-CSharp-Editor}
+      data: 
+    - rid: 8736977042660655104
+      type: {class: UserNodeModelImp, ns: Unity.GraphToolkit.Editor.Implementation, asm: UnityEditor.GraphToolkitModule}
+      data:
+        m_Guid:
+          m_Value0: 8505444147335955971
+          m_Value1: 1176510325765213191
+        m_HashGuid:
+          serializedVersion: 2
+          Hash: 0386e26263680976078cd069e8cd5310
+        m_Version: 2
+        m_Position: {x: 557.94324, y: 785.1112}
+        m_Title: 
+        m_Tooltip: 
+        m_NodePreviewModel:
+          rid: -2
+        m_State: 0
+        m_InputConstantsById:
+          m_KeyList:
+          - Play Music
+          - Music
+          m_ValueList:
+          - rid: 8736977042660655105
+          - rid: 8736977042660655106
+        m_InputPortInfos:
+          expandedPortsById:
+            m_KeyList: []
+            m_ValueList: 
+        m_OutputPortInfos:
+          expandedPortsById:
+            m_KeyList: []
+            m_ValueList: 
+        m_Collapsed: 0
+        m_CurrentModeIndex: 0
+        m_ElementColor:
+          m_Color: {r: 0, g: 0, b: 0, a: 0}
+          m_HasUserColor: 0
+        m_Node:
+          rid: 8736977042660655107
+    - rid: 8736977042660655105
+      type: {class: 'Constant`1[[System.Boolean, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: UnityEditor.GraphToolkitModule}
+      data:
+        m_Value: 0
+    - rid: 8736977042660655106
+      type: {class: 'Constant`1[[UnityEngine.AudioClip, UnityEngine.AudioModule]]', ns: Unity.GraphToolkit.Editor, asm: UnityEditor.GraphToolkitModule}
+      data:
+        m_Value: {fileID: 8300000, guid: 8d969b2a608b249f8bbf7120215ffa98, type: 3}
+    - rid: 8736977042660655107
+      type: {class: MusicPlayerNode, ns: Unity.GraphToolkit.Graphity.Editor, asm: Assembly-CSharp-Editor}
+      data: 
