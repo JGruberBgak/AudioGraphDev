@@ -155,7 +155,7 @@ MonoBehaviour:
         m_Name: Play Music
         m_UniqueId: 
         m_DataType:
-          m_Identification: System.Boolean, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+          m_Identification: System.Boolean, mscorlib
         m_IsExposed: 0
         m_Scope: 0
         m_ShowOnInspectorOnly: 0
