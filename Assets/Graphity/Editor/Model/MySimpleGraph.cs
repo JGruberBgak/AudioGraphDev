@@ -13,7 +13,7 @@ namespace Unity.GraphToolkit.Scripts.Editor
     {
         public const string AssetExtension = "simpleg";
 
-        [MenuItem("Assets/Create/Graph Toolkit Samples/Simple Graph", false)]
+        [MenuItem("Assets/Create/Graphity/Simple Graph", false)]
         static void CreateAssetFile()
         {
             GraphDatabase.PromptInProjectBrowserToCreateNewAsset<MySimpleGraph>();
