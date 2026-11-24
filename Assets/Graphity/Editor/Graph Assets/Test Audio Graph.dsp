@@ -31,6 +31,7 @@ MonoBehaviour:
         m_Name: 
         m_GraphNodeModels:
         - rid: 8736977059536961600
+        - rid: 8736977240259559500
         m_GraphWireModels: []
         m_GraphStickyNoteModels: []
         m_GraphPlacematModels: []
@@ -43,9 +44,9 @@ MonoBehaviour:
         m_LocalSubgraphs: []
         m_LastKnownBounds:
           serializedVersion: 2
-          x: 133
-          y: 262.5
-          width: 289.5
+          x: 148
+          y: 220
+          width: 606
           height: 140
         m_GraphElementMetaData:
         - m_Guid:
@@ -72,8 +73,14 @@ MonoBehaviour:
             Hash: 4da2c65768075b4892d135f1a368ebac
           m_Category: 1
           m_Index: 1
-        m_EntryPoint:
-          rid: 8736977059536961600
+        - m_Guid:
+            m_Value0: 6882645196420839440
+            m_Value1: 15610419029098216564
+          m_HashGuid:
+            serializedVersion: 2
+            Hash: 1078b61f5711845f74bc65406659a3d8
+          m_Category: 0
+          m_Index: 1
         m_Graph:
           rid: 8736977059536961599
     - rid: 8736977059536961598
@@ -103,7 +110,7 @@ MonoBehaviour:
           serializedVersion: 2
           Hash: 886108e88dc8a64ecfa10778a1760328
         m_Version: 2
-        m_Position: {x: 133.02744, y: 262.64386}
+        m_Position: {x: 466.11673, y: 220.06349}
         m_Title: 
         m_Tooltip: 
         m_NodePreviewModel:
@@ -115,7 +122,10 @@ MonoBehaviour:
           - Music
           m_ValueList:
           - rid: 8736977059536961601
-          - rid: 8736977059536961602
+          - rid: 8736977240259559505
+        m_PolymorphicPortSelections:
+          m_KeyList: []
+          m_ValueList: []
         m_InputPortInfos:
           expandedPortsById:
             m_KeyList: []
@@ -135,10 +145,6 @@ MonoBehaviour:
       type: {class: 'Constant`1[[System.Boolean, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: UnityEditor.GraphToolkitModule}
       data:
         m_Value: 0
-    - rid: 8736977059536961602
-      type: {class: 'Constant`1[[UnityEngine.AudioClip, UnityEngine.AudioModule]]', ns: Unity.GraphToolkit.Editor, asm: UnityEditor.GraphToolkitModule}
-      data:
-        m_Value: {fileID: 0}
     - rid: 8736977059536961603
       type: {class: MusicPlayerNode, ns: Unity.GraphToolkit.Graphity.Editor, asm: Assembly-CSharp-Editor}
       data: 
@@ -155,7 +161,7 @@ MonoBehaviour:
         m_Name: Play Music
         m_UniqueId: 
         m_DataType:
-          m_Identification: System.Boolean, mscorlib
+          m_Identification: System.Boolean, System.Private.CoreLib
         m_IsExposed: 0
         m_Scope: 0
         m_ShowOnInspectorOnly: 0
@@ -191,6 +197,51 @@ MonoBehaviour:
         m_Modifiers: 0
         m_VariableFlags: 0
     - rid: 8736977059536961611
+      type: {class: 'Constant`1[[UnityEngine.AudioClip, UnityEngine.AudioModule]]', ns: Unity.GraphToolkit.Editor, asm: UnityEditor.GraphToolkitModule}
+      data:
+        m_Value: {fileID: 0}
+    - rid: 8736977240259559500
+      type: {class: VariableNodeModelImp, ns: Unity.GraphToolkit.Editor.Implementation, asm: UnityEditor.GraphToolkitModule}
+      data:
+        m_Guid:
+          m_Value0: 6882645196420839440
+          m_Value1: 15610419029098216564
+        m_HashGuid:
+          serializedVersion: 2
+          Hash: 1078b61f5711845f74bc65406659a3d8
+        m_Version: 2
+        m_Position: {x: 148.25865, y: 280.59692}
+        m_Title: Music
+        m_Tooltip: 
+        m_NodePreviewModel:
+          rid: -2
+        m_State: 0
+        m_InputConstantsById:
+          m_KeyList: []
+          m_ValueList: []
+        m_PolymorphicPortSelections:
+          m_KeyList: []
+          m_ValueList: []
+        m_InputPortInfos:
+          expandedPortsById:
+            m_KeyList: []
+            m_ValueList: 
+        m_OutputPortInfos:
+          expandedPortsById:
+            m_KeyList: []
+            m_ValueList: 
+        m_Collapsed: 0
+        m_CurrentModeIndex: 0
+        m_ElementColor:
+          m_Color: {r: 0, g: 0, b: 0, a: 0}
+          m_HasUserColor: 0
+        m_DeclarationModel:
+          rid: 8736977059536961610
+        m_DeclarationModelHashGuid:
+          serializedVersion: 2
+          Hash: 4da2c65768075b4892d135f1a368ebac
+        m_Mode: 0
+    - rid: 8736977240259559505
       type: {class: 'Constant`1[[UnityEngine.AudioClip, UnityEngine.AudioModule]]', ns: Unity.GraphToolkit.Editor, asm: UnityEditor.GraphToolkitModule}
       data:
         m_Value: {fileID: 0}
